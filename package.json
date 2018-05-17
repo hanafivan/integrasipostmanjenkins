@@ -1,0 +1,16 @@
+{
+  "name": "automationpointers",
+  "version": "1.0.0",
+  "description": "",
+  "directories":{
+     "tests": "tests"
+  },
+  "scripts": {
+    "api-tests-dev": "newman run tests/01. SEARCH API PYTHON.postman_collection.json"
+  },
+  "author": "Iyan Hanafi Van Tony",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}

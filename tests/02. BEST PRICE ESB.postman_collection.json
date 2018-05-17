@@ -1,0 +1,7964 @@
+{
+	"info": {
+		"_postman_id": "0e071a9b-e1a5-47b8-a215-ec9477929592",
+		"name": "02. BEST PRICE ESB",
+		"description": "API dari scraping garuda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SEARCH",
+			"description": null,
+			"item": [
+				{
+					"name": "GARUDA",
+					"description": null,
+					"item": [
+						{
+							"name": "1.a. Search Garuda_API_CGK JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.a. Search Garuda_API_CGK JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.a. Search Garuda_API_CGK JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.a. Search Garuda_API_CGK DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.b. Search Garuda_API_CGK DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.c. Search Garuda_API_CGK DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.a. Search Garuda_API_CGK SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.b. Search Garuda_API_CGK SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.c. Search Garuda_API_CGK SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=CGK&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.a. Search Garuda_API_JOG DJB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=DJB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.b. Search Garuda_API_JOG DJB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=DJB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.c. Search Garuda_API_JOG DJB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=DJB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.a. Search Garuda_API_JOG SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.b. Search Garuda_API_JOG SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.c. Search Garuda_API_JOG SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.a. Search Garuda_API_JOG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.b. Search Garuda_API_JOG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.c. Search Garuda_API_JOG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.a. Search Garuda_API_JOG PKU_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=PKU&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.b. Search Garuda_API_JOG PKU_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=PKU&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.c. Search Garuda_API_JOG PKU_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=JOG&to=PKU&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.a. Search Garuda_API_SRG CGK_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=CGK&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.b. Search Garuda_API_SRG CGK_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=CGK&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.c. Search Garuda_API_SRG CGK_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=CGK&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.a. Search Garuda_API_SRG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.b. Search Garuda_API_SRG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.c. Search Garuda_API_SRG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.a. Search Garuda_API_SRG JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.b. Search Garuda_API_SRG JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.c. Search Garuda_API_SRG JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/garuda/search?from=SRG&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"garuda",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "LION",
+					"description": null,
+					"item": [
+						{
+							"name": "1.a. Search LION_API_CGK JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.b. Search LION_API_CGK JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.c. Search LION_API_CGK JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.a. Search LION_API_CGK DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.b. Search LION_API_CGK DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.c. Search LION_API_CGK DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.a. Search LION_API_CGK SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.b. Search LION_API_CGK SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.c. Search LION_API_CGK SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=CGK&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.a. Search LION_API_JOG DJB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=DJB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.b. Search LION_API_JOG DJB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=DJB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.c. Search LION_API_JOG DJB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=DJB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.a. Search LION_API_JOG SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.b. Search LION_API_JOG SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.c. Search LION_API_JOG SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.a. Search LION_API_JOG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.b. Search LION_API_JOG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.c. Search LION_API_JOG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.a. Search LION_API_JOG PKU_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=PKU&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.b. Search LION_API_JOG PKU_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=PKU&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.c. Search LION_API_JOG PKU_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=JOG&to=PKU&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.a. Search LION_API_SRG CGK_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=CGK&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.b. Search LION_API_SRG CGK_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=CGK&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.c. Search LION_API_SRG CGK_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=CGK&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.a. Search LION_API_SRG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.b. Search LION_API_SRG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.c. Search LION_API_SRG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.a. Search LION_API_SRG JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.b. Search LION_API_SRG JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.c. Search LION_API_SRG JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/lion/search?from=SRG&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"lion",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "CITILINK",
+					"description": null,
+					"item": [
+						{
+							"name": "1.a. Search CITILINK_API_CGK JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.b. Search CITILINK_API_CGK JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.c. Search CITILINK_API_CGK JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.a. Search CITILINK_API_CGK DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.b. Search CITILINK_API_CGK DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.c. Search CITILINK_API_CGK DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.a. Search CITILINK_API_CGK SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.b. Search CITILINK_API_CGK SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.c. Search CITILINK_API_CGK SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=CGK&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.a. Search CITILINK_API_JOG DJB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=DJB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.b. Search CITILINK_API_JOG DJB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=DJB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.c. Search CITILINK_API_JOG DJB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=DJB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.a. Search CITILINK_API_JOG SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.b. Search CITILINK_API_JOG SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.c. Search CITILINK_API_JOG SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.a. Search CITILINK_API_JOG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.b. Search CITILINK_API_JOG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.c. Search CITILINK_API_JOG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.a. Search CITILINK_API_JOG PKU_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=PKU&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.b. Search CITILINK_API_JOG PKU_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=PKU&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.c. Search CITILINK_API_JOG PKU_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=JOG&to=PKU&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.a. Search CITILINK_API_SRG CGK_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=CGK&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.b. Search CITILINK_API_SRG CGK_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=CGK&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.c. Search CITILINK_API_SRG CGK_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=CGK&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.a. Search CITILINK_API_SRG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.b. Search CITILINK_API_SRG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.c. Search CITILINK_API_SRG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.a. Search CITILINK_API_SRG JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.b. Search CITILINK_API_SRG JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.c. Search CITILINK_API_SRG JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/citilink/search?from=SRG&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"citilink",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "SRIWIJAYA",
+					"description": null,
+					"item": [
+						{
+							"name": "1.a. Search SRIWIJAYA_API_CGK JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.b. Search SRIWIJAYA_API_CGK JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "1.c. Search SRIWIJAYA_API_CGK JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.a. Search SRIWIJAYA_API_CGK DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.b. Search SRIWIJAYA_API_CGK DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2.c. Search SRIWIJAYA_API_CGK DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.a. Search SRIWIJAYA_API_CGK SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.b. Search SRIWIJAYA_API_CGK SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3.c. Search SRIWIJAYA_API_CGK SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=CGK&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "CGK"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.a. Search SRIWIJAYA_API_JOG DJB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=DJB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.b. Search SRIWIJAYA_API_JOG DJB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=DJB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4.c. Search SRIWIJAYA_API_JOG DJB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=DJB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DJB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.a. Search SRIWIJAYA_API_JOG SUB_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=SUB&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.b. Search SRIWIJAYA_API_JOG SUB_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=SUB&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5.c. Search SRIWIJAYA_API_JOG SUB_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=SUB&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "SUB"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.a. Search SRIWIJAYA_API_JOG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.b. Search SRIWIJAYA_API_JOG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6.c. Search SRIWIJAYA_API_JOG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.a. Search SRIWIJAYA_API_JOG PKU_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=PKU&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.b. Search SRIWIJAYA_API_JOG PKU_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=PKU&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "7.c. Search SRIWIJAYA_API_JOG PKU_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=JOG&to=PKU&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "JOG"
+										},
+										{
+											"key": "to",
+											"value": "PKU"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.a. Search SRIWIJAYA_API_SRG CGK_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=CGK&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.b. Search SRIWIJAYA_API_SRG CGK_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=CGK&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "8.c. Search SRIWIJAYA_API_SRG CGK_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=CGK&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "CGK"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.a. Search SRIWIJAYA_API_SRG DPS_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=DPS&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.b. Search SRIWIJAYA_API_SRG DPS_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=DPS&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "9.c. Search SRIWIJAYA_API_SRG DPS_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=DPS&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "DPS"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.a. Search SRIWIJAYA_API_SRG JOG_100",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=JOG&adult=1&child=0&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "0"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.b. Search SRIWIJAYA_API_SRG JOG_110",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=JOG&adult=1&child=1&infant=0&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "0"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10.c. Search SRIWIJAYA_API_SRG JOG_111",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "zdc2zmu2ngetodu0ns00m2i0ltkwymmtodmxyzdkytq0zmyw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://gate.pointer.co.id/flight/sriwijaya/search?from=SRG&to=JOG&adult=1&child=1&infant=1&date=01-06-2018&search_type=1&ret_date=01-06-2018",
+									"protocol": "https",
+									"host": [
+										"gate",
+										"pointer",
+										"co",
+										"id"
+									],
+									"path": [
+										"flight",
+										"sriwijaya",
+										"search"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "SRG"
+										},
+										{
+											"key": "to",
+											"value": "JOG"
+										},
+										{
+											"key": "adult",
+											"value": "1"
+										},
+										{
+											"key": "child",
+											"value": "1"
+										},
+										{
+											"key": "infant",
+											"value": "1"
+										},
+										{
+											"key": "date",
+											"value": "01-06-2018"
+										},
+										{
+											"key": "search_type",
+											"value": "1"
+										},
+										{
+											"key": "ret_date",
+											"value": "01-06-2018"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		}
+	]
+}
